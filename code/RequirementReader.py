@@ -1,6 +1,8 @@
 import os
 
-requirements_path = "..\\requirement\\"
+requirements_path = "../requirement/"
+# if not os.path.exists(requirements_path):
+#     requirements_path = "..\\requirement\\"
 
 
 class RequirementReader:
@@ -26,4 +28,4 @@ class RequirementReader:
 if __name__ == "__main__":
     requirement_reader = RequirementReader()
     print(requirement_reader.read_pdf_path())
-    requirement_reader.read_description()
+    print(requirement_reader.read_description())

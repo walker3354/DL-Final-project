@@ -1,6 +1,8 @@
 import os
 
-path = "..\\homeworks\\"
+path = "../homeworks/"
+if not os.path.exists(path):
+    requirements_path = "..\\homeworks\\"
 file_types = ["c"]
 
 
