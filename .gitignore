@@ -8,4 +8,5 @@ logs/
 temp/
 *.tmp
 
-api_key.txt
+/code/api_key.txt
+/code/myenv
